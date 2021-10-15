@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ArtemBurnashev/food-blog.git/static/css/main.82779883.chunk.css",
+    "main.js": "/ArtemBurnashev/food-blog.git/static/js/main.b517faf0.chunk.js",
+    "main.js.map": "/ArtemBurnashev/food-blog.git/static/js/main.b517faf0.chunk.js.map",
+    "runtime-main.js": "/ArtemBurnashev/food-blog.git/static/js/runtime-main.2d0b4cf5.js",
+    "runtime-main.js.map": "/ArtemBurnashev/food-blog.git/static/js/runtime-main.2d0b4cf5.js.map",
+    "static/js/2.a4c96124.chunk.js": "/ArtemBurnashev/food-blog.git/static/js/2.a4c96124.chunk.js",
+    "static/js/2.a4c96124.chunk.js.map": "/ArtemBurnashev/food-blog.git/static/js/2.a4c96124.chunk.js.map",
+    "static/js/3.c8e37a01.chunk.js": "/ArtemBurnashev/food-blog.git/static/js/3.c8e37a01.chunk.js",
+    "static/js/3.c8e37a01.chunk.js.map": "/ArtemBurnashev/food-blog.git/static/js/3.c8e37a01.chunk.js.map",
+    "index.html": "/ArtemBurnashev/food-blog.git/index.html",
+    "static/css/main.82779883.chunk.css.map": "/ArtemBurnashev/food-blog.git/static/css/main.82779883.chunk.css.map",
+    "static/js/2.a4c96124.chunk.js.LICENSE.txt": "/ArtemBurnashev/food-blog.git/static/js/2.a4c96124.chunk.js.LICENSE.txt",
+    "static/media/Components.css": "/ArtemBurnashev/food-blog.git/static/media/bg-banner.0b0de886.jpg",
+    "static/media/logo.3e8b5f96.svg": "/ArtemBurnashev/food-blog.git/static/media/logo.3e8b5f96.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d0b4cf5.js",
+    "static/js/2.a4c96124.chunk.js",
+    "static/css/main.82779883.chunk.css",
+    "static/js/main.b517faf0.chunk.js"
+  ]
+}
