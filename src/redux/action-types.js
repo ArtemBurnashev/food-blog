@@ -1,0 +1,6 @@
+export const ActionTypes ={
+    SET_CATEGORIES:'SET_CATEGORIES',
+    SET_MEALS:'SET_MEALS',
+    GET_MEAL:'GET_MEAL',
+    GET_AREA:'GET_AREA',
+}
