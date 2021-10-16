@@ -1,6 +1,6 @@
 {
   "name": "food-blog",
-  "homepage": "https://github.com/ArtemBurnashev/food-blog.git",
+  "homepage": "https://github.com/ArtemBurnashev/food-blog/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
