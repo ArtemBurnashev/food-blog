@@ -1,5 +1,6 @@
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 .body{
@@ -33,7 +34,10 @@ iframe{
 .menu-link{
     color: #fff;
     text-decoration: none;
+    -webkit-transition: color .2s linear;
+    -o-transition: color .2s linear;
     transition: color .2s linear;
+    
 }
 .menu-link:hover{
     color:rgb(0, 187, 119);
@@ -45,6 +49,7 @@ iframe{
     max-height: 630px;
     min-height: 520px;
     background:url('../components/Home/components/Banner/bg-banner.jpg') center center/ cover no-repeat;
+    -webkit-background:url('../components/Home/components/Banner/bg-banner.jpg') center center/ cover no-repeat;
     background-attachment: fixed;
     overflow: hidden;
 
@@ -57,8 +62,40 @@ iframe{
     position: absolute;
     display:block;
     background-color: rgba(0, 0 , 0, .2);
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    align-items:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+.input::-webkit-input-placeholder{
+    font-size:16px;
+    opacity:.8;
+   
+
+}
+
+.input::-moz-placeholder{
+    font-size:16px;
+    opacity:.8;
+   
+
+}
+
+.input:-ms-input-placeholder{
+    font-size:16px;
+    opacity:.8;
+   
+
+}
+
+.input::-ms-input-placeholder{
+    font-size:16px;
+    opacity:.8;
+   
+
 }
 
 .input::placeholder{
@@ -75,6 +112,7 @@ iframe{
 }
 
 .list{
+    display:-ms-grid;
     display:grid;
     grid-template-columns:repeat(auto-fill,minmax(230px, 1fr));
     gap:1.1rem;
@@ -98,8 +136,13 @@ iframe{
 }
 
 .card{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .section--category{
@@ -112,8 +155,13 @@ iframe{
 
 .recipe-container{
     text-align: start;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 1.8rem;
 }
 .section--search{
@@ -131,7 +179,9 @@ iframe{
         display: none !important;
     }
     .subfooter{
-        justify-content: center !important;
+        -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+                justify-content: center !important;
     }
 }
 @media(max-width:575px){
@@ -150,5 +200,4 @@ iframe{
     }
 
 }
-
 
