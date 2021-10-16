@@ -67,8 +67,10 @@ export default function LogIn() {
               type="submit"
               fullWidth
               variant="contained"
-              bgcolor = 'rgb(0, 187, 119)'
               sx={{ mt: 3, mb: 2 }}
+              style={{
+                  backgroundColor:'rgb(1, 159, 98)',
+              }}
             >
               Sign In
             </Button>
