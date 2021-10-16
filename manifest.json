@@ -1,6 +1,6 @@
 {
-  "short_name": "food-blog",
-  "name": "project food-blog",
+  "short_name": "foodBlog",
+  "name": "project foodBlog",
   "icons": [
     {
       "src": "favicon.ico",
