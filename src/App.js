@@ -18,7 +18,7 @@ const  App = ()=>{
   
   return(
     <>
-     <Router basename = "food-blog">
+     <Router basename = "/food-blog">
       <Provider store={store}>
       <Header/>
        <main className="content">
